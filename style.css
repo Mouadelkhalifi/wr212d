@@ -1,0 +1,159 @@
+body {
+    font-family: Quicksand, serif;
+    font-size: 20px;
+}
+h1,h2,h3,h4, h5 {
+    font-family: Rubik, serif;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Playfair Display, serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 88px; /* 110% */
+    max-width: 586px;
+    margin-bottom: 66px;
+}
+h2 {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    color: #1E1E1E;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px; /* 104.348% */
+    letter-spacing: 1.84px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #1E1E1E;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px; /* 110% */
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+header {
+    background: url(assets/header-background.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 688px;
+    padding-top: 91px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.button {
+    background: white;
+    padding: 16px;
+    min-width: 150px;
+    color: #333;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.button:hover {
+    background: #18302B;
+    color: white;
+}
+
+.text-center {
+    text-align: center
+}
+
+.item-1  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 108px;
+}
+
+.item-1 div:last-child {
+    width: 465px;
+}
+
+.item-1 img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+section {
+    padding-bottom: 169px;
+}
+
+.item-2  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 108px;
+}
+
+.item-2 div:first-child {
+    width: 465px;
+    margin-left: 108px;
+}
+
+.item-2 img {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.industries {
+    background-color: #18302B;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 101px;
+}
+
+.industries h2 {
+    color: white;
+    text-align: center;
+}
+
+.industries .icones {
+    text-align: center;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+@keyframes rotation {
+    from {
+        transform: none;
+        background-color: #fff;
+    }
+    to {
+        transform: rotate(360deg);
+        background-color: #18302B;
+    }
+}
+
+.industries .icones div:hover svg {
+    animation: rotation 5s linear infinite;
+}
+
+.industries .icones div {
+    width: 108px;
+}
+
+.industries svg {
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 108px;
+    height: 108px;
+    vertical-align: middle;
+    background: white;
+    border-radius: 100%;
+    padding: 32px;
+}
