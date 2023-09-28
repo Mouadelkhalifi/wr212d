@@ -1,3 +1,4 @@
+/*ajouter du responsive 986px */
 body {
     font-family: Quicksand, serif;
     font-size: 20px;
@@ -48,15 +49,15 @@ header {
 .container {
     max-width: 1440px;
     margin: auto;
+    padding: 10px 50px 90px 90px;
 }
 
 .button {
     background: white;
-    padding: 16px;
+    padding: 16px 40px 16px 40px;
     min-width: 150px;
     color: #333;
     text-align: center;
-    font-family: Quicksand;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
@@ -78,6 +79,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 108px;
+    padding-bottom: 90px;
 }
 
 .item-1 div:last-child {
@@ -90,7 +92,6 @@ header {
 }
 
 section {
-    padding-bottom: 169px;
 }
 
 .item-2  {
@@ -101,7 +102,6 @@ section {
 
 .item-2 div:first-child {
     width: 465px;
-    margin-left: 108px;
 }
 
 .item-2 img {
@@ -112,8 +112,7 @@ section {
 .industries {
     background-color: #18302B;
     color: white;
-    padding-top: 80px;
-    padding-bottom: 101px;
+    padding-bottom: 11px;
 }
 
 .industries h2 {
@@ -144,7 +143,7 @@ section {
 }
 
 .industries .icones div {
-    width: 108px;
+    width: auto;
 }
 
 .industries svg {
@@ -156,4 +155,28 @@ section {
     background: white;
     border-radius: 100%;
     padding: 32px;
+}
+.viddiv{
+    display: grid;
+    grid-template-columns: auto 700px auto;
+    padding: 60px;
+}
+.viddiv a {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+grid-column: 2/3;
+}
+.vid{
+    border-radius: 12px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.svg{
+    width: 200px;
+    position: absolute;
+    top: 300px;
+    left: 30px;
 }
