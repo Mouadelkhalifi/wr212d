@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.exercice {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.exercice__container {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 3482px;
+    position: relative;
+}
+
+.exercice__overlap {
+    position: absolute;
+    width: 100%;
+    height: 688px;
+    top: 0;
+    left: 0;
+    background-image: url(images/heolien.jpg);
+    background-size: 100% 100%;
+}
+
+.exercice__text-wrapper {
+    position: absolute;
+    width: 689px;
+    top: 90px;
+    left: 150px;
+    font-family: "Playfair Display";
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: 88px;
+}
+
+.exercice__frame {
+    display: flex;
+    width: 164px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px;
+    position: absolute;
+    top: 421px;
+    left: 150px;
+    background-color: #ffffff;
+}
+
+.exercice__send {
+    position: relative;
+    width: fit-content;
+    font-family: "Quicksand-Bold", Helvetica;
+    font-weight: 700;
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.exercice__overlap-group {
+    position: absolute;
+    width: 100%;
+    height: 1357px;
+    top: 2141px;
+    left: 0;
+}
+
+.exercice__group {
+    position: absolute;
+    width: 1442px;
+    height: 492px;
+    top: 0;
+    left: 0;
+}
+
+.exercice__overlap-group-2 {
+    position: relative;
+    width: 100%;
+    height: 492px;
+    background-color: #18302b;
+}
+
+.exercice__industries {
+    position: absolute;
+    top: 80px;
+    left: 573px;
+    font-family: "Rubik-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: 1.84px;
+    line-height: 48px;
+    white-space: nowrap;
+}
+
+.exercice__frame-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 150px;
+    position: absolute;
+    top: 216px;
+    left: 280px;
+}
+
+.exercice__frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.exercice__frame-wrapper {
+    position: relative;
+    width: 108px;
+    height: 108px;
+    background-color: #ffffff;
+    border-radius: 54px;
+    box-shadow: 4px 15px 26px #af97581f;
+}
+
+.exercice__frame-4 {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    top: 28px;
+    left: 28px;
+    overflow: hidden;
+}
+
+.exercice__vector {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 1072px;
+    left: 2057px;
+}
+
+.exercice__img {
+    position: absolute;
+    width: 33px;
+    height: 42px;
+    top: 5px;
+    left: 9px;
+}
+
+.exercice__text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.exercice__frame-5 {
+    display: flex;
+    flex-direction: column;
+    width: 108px;
+    align-items: center;
+    gap: 42px;
+    position: relative;
+}
+
+.exercice__frame-6 {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 28px;
+    left: 28px;
+}
+
+.exercice__text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-left: -6px;
+    margin-right: -6px;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.exercice__frame-7 {
+    display: flex;
+    flex-direction: column;
+    width: 107px;
+    align-items: center;
+    gap: 42px;
+    position: relative;
+}
+
+.exercice__img-wrapper {
+    position: relative;
+    width: 108px;
+    height: 108px;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+    background-color: #ffffff;
+    border-radius: 54px;
+    box-shadow: 4px 15px 26px #af97581f;
+}
+
+.exercice__text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-left: -9px;
+    margin-right: -9px;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.exercice__text-wrapper-5 {
+    position: relative;
+    width: 232px;
+    margin-left: -62px;
+    margin-right: -62px;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.exercice__group-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 869px;
+    top: 488px;
+    left: 0;
+}
+
+.exercice__div-wrapper {
+    position: relative;
+    width: 1140px;
+    height: 604px;
+    top: 134px;
+    left: 150px;
+    border-radius: 20px;
+    background-image: url(images/video.jpg);
+    background-size: 100% 100%;
+}
+
+.exercice__frame-8 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    top: 514px;
+    left: 44px;
+}
+
+.exercice__polygon-wrapper {
+
+}
+
+.exercice__polygon {
+    position: absolute;
+    top: -18px;
+    left: 17px;
+}
+
+.exercice__text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.exercice__frame-9 {
+    position: absolute;
+    width: 1440px;
+    height: 1192px;
+    top: 780px;
+    left: 0;
+    overflow: hidden;
+}
+
+.exercice__about {
+    position: absolute;
+    top: -1px;
+    left: 150px;
+    font-family: "Rubik-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #1e1e1e;
+    font-size: 46px;
+    text-align: center;
+    letter-spacing: 1.84px;
+    line-height: 48px;
+    white-space: nowrap;
+}
+
+.exercice__group-2 {
+    position: absolute;
+    width: 1075px;
+    height: 492px;
+    top: 108px;
+    left: 150px;
+}
+
+.exercice__frame-10 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    top: 75px;
+    left: 607px;
+}
+
+.exercice__text-wrapper-7 {
+    position: relative;
+    width: 468px;
+    margin-top: -1px;
+    font-family: "Rubik-Bold", Helvetica;
+    font-weight: 700;
+    color: #1e1e1e;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 44px;
+}
+
+.exercice__p {
+    position: relative;
+    width: 465px;
+    font-family: "Quicksand-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1e1e;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.exercice__rectangle {
+    position: absolute;
+    width: 499px;
+    height: 492px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.exercice__group-3 {
+    position: absolute;
+    width: 1072px;
+    height: 502px;
+    top: 700px;
+    left: 218px;
+}
+
+.exercice__frame-11 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    top: 84px;
+    left: 0;
+}
+
+.exercice__text-wrapper-8 {
+    position: relative;
+    width: 452px;
+    margin-top: -1px;
+    font-family: "Rubik-Bold", Helvetica;
+    font-weight: 700;
+    color: #1e1e1e;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: 44px;
+}
+
+.exercice__rectangle-2 {
+    position: absolute;
+    width: 499px;
+    height: 492px;
+    top: 0;
+    left: 573px;
+    border-radius: 50%;
+}
+
+.exercice__frame-12 {
+    width: 28px;
+    height: 28px;
+    top: 688px;
+    left: 1410px;
+}
+
+.exercice__group-3 img:hover {
+    transform: scale(1.1); /* Augmente l'échelle de 10% au survol */
+    transition: transform 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.exercice__group-2 img:hover {
+    transform: scale(1.1); /* Augmente l'échelle de 10% au survol */
+    transition: transform 0.3s ease; /* Ajoute une transition fluide */
+}
+
+.exercice__img:hover {
+    transform: rotate(360deg); /* Fait tourner l'image de 360 degrés au survol */
+    transition: transform 1s linear; /* Ajoute une transition linéaire */
+}
+
+.exercice__frame-6:hover {
+    transform: rotate(360deg); /* Fait tourner l'image de 360 degrés au survol */
+    transition: transform 1s linear; /* Ajoute une transition linéaire */
+}
+
+.exercice__ico-scroll {
+    position: fixed;
+    right: 20px; /* Ajustez la valeur selon votre préférence */
+    bottom: 20px; /* Ajustez la valeur selon votre préférence */
+    cursor: pointer;
+}
