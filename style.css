@@ -27,7 +27,7 @@
   height: 688px;
   top: 0;
   left: 0;
-  background-image: url(images/heolien.jpg);
+  background-image: url(../images/heolien.jpg);
   background-size: 100% 100%;
 }
 
@@ -37,9 +37,9 @@
   top: 90px;
   left: 150px;
   font-family: "Playfair Display";
+  font-size: 80px;
   font-weight: 800;
   color: #ffffff;
-  font-size: 80px;
   letter-spacing: 0;
   line-height: 88px;
 }
@@ -60,10 +60,10 @@
 .exercice__send {
   position: relative;
   width: fit-content;
-  font-family: "Quicksand-Bold", Helvetica;
+  font-family: "Quicksand-Bold, Helvetica";
+  font-size: 16px;
   font-weight: 700;
   color: #333333;
-  font-size: 16px;
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
@@ -96,10 +96,10 @@
   position: absolute;
   top: 80px;
   left: 573px;
-  font-family: "Rubik-SemiBold", Helvetica;
+  font-family: "Rubik-SemiBold, Helvetica";
+  font-size: 46px;
   font-weight: 600;
   color: #ffffff;
-  font-size: 46px;
   text-align: center;
   letter-spacing: 1.84px;
   line-height: 48px;
@@ -161,10 +161,10 @@
 .exercice__text-wrapper-2 {
   position: relative;
   width: fit-content;
-  font-family: "Quicksand-Medium", Helvetica;
+  font-family: "Quicksand-Medium, Helvetica";
+  font-size: 20px;
   font-weight: 500;
   color: #ffffff;
-  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -191,10 +191,10 @@
   width: fit-content;
   margin-left: -6px;
   margin-right: -6px;
-  font-family: "Quicksand-Medium", Helvetica;
+  font-family: "Quicksand-Medium, Helvetica";
+  font-size: 20px;
   font-weight: 500;
   color: #ffffff;
-  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -224,10 +224,10 @@
   width: fit-content;
   margin-left: -9px;
   margin-right: -9px;
-  font-family: "Quicksand-Medium", Helvetica;
+  font-family: "Quicksand-Medium, Helvetica";
+  font-size: 20px;
   font-weight: 500;
   color: #ffffff;
-  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -237,10 +237,10 @@
   width: 232px;
   margin-left: -62px;
   margin-right: -62px;
-  font-family: "Quicksand-Medium", Helvetica;
+  font-family: "Quicksand-Medium, Helvetica";
+  font-size: 20px;
   font-weight: 500;
   color: #ffffff;
-  font-size: 20px;
   text-align: center;
   letter-spacing: 0;
   line-height: 28px;
@@ -261,7 +261,7 @@
   top: 134px;
   left: 150px;
   border-radius: 20px;
-  background-image: url(images/video.jpg);
+  background-image: url(../images/video.jpg);
   background-size: 100% 100%;
 }
 
@@ -283,10 +283,10 @@
 .exercice__text-wrapper-6 {
   position: relative;
   width: fit-content;
-  font-family: "Quicksand-Medium", Helvetica;
+  font-family: "Quicksand-Medium, Helvetica";
+  font-size: 24px;
   font-weight: 500;
   color: #ffffff;
-  font-size: 24px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -304,10 +304,10 @@
   position: absolute;
   top: -1px;
   left: 150px;
-  font-family: "Rubik-SemiBold", Helvetica;
+  font-family: "Rubik-SemiBold, Helvetica";
+  font-size: 46px;
   font-weight: 600;
   color: #1e1e1e;
-  font-size: 46px;
   text-align: center;
   letter-spacing: 1.84px;
   line-height: 48px;
@@ -336,10 +336,10 @@
   position: relative;
   width: 468px;
   margin-top: -1px;
-  font-family: "Rubik-Bold", Helvetica;
+  font-family: "Rubik-Bold, Helvetica";
+  font-size: 40px;
   font-weight: 700;
   color: #1e1e1e;
-  font-size: 40px;
   letter-spacing: 0;
   line-height: 44px;
 }
@@ -347,10 +347,10 @@
 .exercice__p {
   position: relative;
   width: 465px;
-  font-family: "Quicksand-Medium", Helvetica;
+  font-family: "Quicksand-Medium, Helvetica";
+  font-size: 20px;
   font-weight: 500;
   color: #1e1e1e;
-  font-size: 20px;
   letter-spacing: 0;
   line-height: 29px;
 }
@@ -387,10 +387,10 @@
   position: relative;
   width: 452px;
   margin-top: -1px;
-  font-family: "Rubik-Bold", Helvetica;
+  font-family: "Rubik-Bold, Helvetica";
+  font-size: 40px;
   font-weight: 700;
   color: #1e1e1e;
-  font-size: 40px;
   letter-spacing: 0;
   line-height: 44px;
 }
