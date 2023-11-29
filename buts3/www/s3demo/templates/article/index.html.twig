@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Articles{% endblock %}
+
+{% block body %}
+    <h1>Articles</h1>
+    {% for article in articles %}
+    <div>
+        <h2>{{ loop.index }} . {{ article.titre }}</h2>
+        <p>{{ article.texte }}</p>
+        <i>{{ article.date|date('d/m/y') }}</i>
+    </div>
+    {% endfor %}
+    <br>
+    <p style="color: red">Il y a {{ articles|length }} article(s)</p>
+
+{% endblock %}
